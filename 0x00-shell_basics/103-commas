@@ -1,0 +1,2 @@
+#!/bin/bash
+ls -1a | sort -d -f --ignore-case --human-numeric-sort | sed -e 's/\(.*\)/\1\//' | tr '\n' ','
